@@ -5,15 +5,48 @@ my personal website
 
 ### Fitness
 
-- My Workout
+- Fitness Status (refreshes daily)
+    - Weight
+    - bodyfat
+    - hrs of sleep 
+    - resting heart rate
+    - maximum heart rate
+    - diet
+    - workout
+    - sentiment extraction from diary
 - My Fitbit
+    - timeline plot
 - My Diet
-  
-### About me
+    - my story
+    - timeline plot
+- My Workout
+    - interactive timeline plot
+    - strava link
 
-### Projects
+### Tech
 
-### Pictures
+List a few of my representative engineering/tech projects
+- Swollen
+- DiaBeatDis
+- Meditation Trainer
+- Brain-Controlled Ball
+- DJ MoveMixx
+- GrassRoot
+- UTI Patch
+
+### Scholar
+List of academic stuff
+- Publications
+- In Reviews
+- Patents
+
+### Random
+Random stuff worthy of shit-talking
+- Cooking
+- Modeling
+- Home Project
+- Dance
+- Standup
 
 
 # Yarn Instruction on How to Run This
