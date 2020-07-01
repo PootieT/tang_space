@@ -27,9 +27,9 @@ export default class FitnessSapce extends Component {
         },
         workout: {
           pseudo_planche_pushup: [
-            (10, 226, 60),
-            (10, 226, 60),
-            (10, 226, 60)
+            [10, 226, 60],
+            [10, 226, 60],
+            [10, 226, 60]
           ]
         },
         diary_emotion: {
@@ -37,6 +37,38 @@ export default class FitnessSapce extends Component {
           sadness: 0.4,
           happiness: 0.3
         }
+      }
+      return JSON.stringify(data, null, '\t')
+    }
+
+    const retrieve_workout_stats =()=> {
+      const data = {
+        date: "6/24/2020",
+        workout: {
+            "pistol_squat":
+                [
+                  [[10, 167, 90], [14, 227, 90], [15, 227, 90], [10, 227, 90]]
+                ],
+            "heel_elevated_dumbbell_goblet_squat":
+                [
+                  [[20, 60, 90], [12, 115, 90], [11, 105, 90],[9, 105, 10], [13, 60, 90]]
+                ],
+            "bulgarian_split_squat":
+                [
+                  [[20, 227, 90], [15, 277, 90], [15, 277, 90]]
+                ],
+            "sisterhood_squat--single_standing_calf_raise":
+                [      
+                  [[12, 227, 10], [11, 227, 10], [10, 227, 10]],
+                  [[20, 227, 30], [20, 227, 30], [20, 227, 30]]
+                ],
+            "band_hamstring_curl--plank":
+                [
+                  [[12, 80, 10], [15, 80, 10], [13, 90, 10]],
+                  [[60, 0, 10], [60, 0, 10], [60, 0, 10]]
+                ]
+        },
+        soreness_day_after: 3
       }
       return JSON.stringify(data, null, '\t')
     }
@@ -116,7 +148,65 @@ export default class FitnessSapce extends Component {
                 value={retrieve_fitness_stats()}
               />
           </Col>
-
+          <Row className="justify-content-md-center">
+            <h3>Fitbit Status</h3>
+          </Row>
+          <Col md={{span: 8, offset: 2 }}>
+            <p>
+              I track my heart rate and "steps" everyday. Though Fitbit data is far from idea, it does
+              give you a few cool features such as heart rate, calorie consumed, estimated workout time,
+              workout intensity, etc. Using this I can monitor the general health condition and if 
+              necessary, correlates to my workout progress.
+            </p>
+          </Col>
+          <Row className="justify-content-md-center">
+            <h3>Diet Status</h3>
+          </Row>
+          <Col md={{span: 8, offset: 2 }}>
+            <p>
+              I track every piece of my diet in <a href="https://www.myfitnesspal.com/">MyFitnessPal</a> from 
+              170g of greek yogurt in the morning, to 1oz of cachew at night. With the data I 
+              draw correlation between diet and workout progress over time.
+            </p>
+          </Col>
+          <Row className="justify-content-md-center">
+            <h3>Workout Status</h3>
+          </Row>
+          <Col md={{span: 8, offset: 2 }}>
+            <p>
+              I track my workout everyday mannually. I attempted in making a workout tracking app to 
+              faciliate the recording process during workout (see <a href="https://github.com/PootieT/fitness_progression_modeling/tree/master/fitnessMobile">Swollen</a> for detail), 
+              but I soon realized that I just don't want to spend time thinking about anything in 
+              between sets. Unless there is no manual inputs required, I am never going to record 
+              workouts during exercise. What I have below is an example of such workout data point:
+            </p>
+            <Editor
+              height="60vh"
+              language="json"
+              value={retrieve_workout_stats()}
+            />
+            <p>
+              Most of the above dat ashould make sense. <i>soreness_day_after</i> is a rating 1-5 I give
+              the day after the workout with 1 being not feeling any soreness and 5 being not being able
+              to move without feeling a constant pain in that region of muscles. Each exercise name are
+              joined by underscore. Two exercises are listed together joined by "--" when it is performed
+              as a superset (performing two exercising in alternating sets). Each list of tuples within an
+              exercise represent the sets of reps I have performed, with each tuple representing 
+              [<i>reps</i>, <i>resistance (lbs)</i>, <i>rest time (seconds)</i>]
+            </p>
+          </Col>
+          <Row className="justify-content-md-center">
+            <h3>Want My Data?</h3>
+          </Row>
+          <Col md={{span: 8, offset: 2 }}>
+            <p>
+              Unless you are collecting your own fitness data manually, most of the fitness app out there
+              doesn't allow you to export data in a nice format. One of the main reason I have been tracking 
+              by myself is so I can one day publish this longitutal data for opensource purpose. If you would
+              like to obtain early access to the data (currently not served over REST API which is in the working), 
+              connect with me and we can collaborate. Cheers.
+            </p>
+          </Col>
         </Jumbotron>       
       </div>
     )
