@@ -7,6 +7,7 @@ import Navbar from './components/CustomNavbar';
 import Connect from './components/Connect';
 import FitnessSpace from './components/spaces/Fitness/FitnessSpace'
 import TechSpace from './components/spaces/Tech/TechSpace'
+import DjMoveMixx from './components/spaces/Tech/projects/DjMoveMixx'
 import ScholarSpace from './components/spaces/Scholar/ScholarSpace'
 import RandomSpace from './components/spaces/Random/RandomSpace'
 
@@ -21,6 +22,7 @@ class App extends Component {
           <Route path="/about" component={About} />
           <Route path="/fitness" component={FitnessSpace} />
           <Route path="/tech" component={TechSpace} />
+          <Route path="/djmovemixx" component={DjMoveMixx} />
           <Route path="/scholar" component={ScholarSpace} />
           <Route path="/random" component={RandomSpace} />
           <Route path="/connect" component={Connect} />

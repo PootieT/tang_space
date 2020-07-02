@@ -1,0 +1,15 @@
+.project{
+    background-color: rgb(235, 235, 235);
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.project-link{
+    position: absolute;
+    bottom: 0;
+}
+
+img{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
