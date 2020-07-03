@@ -3,6 +3,11 @@
     white-space: pre-wrap;
 }
 
+.space-title{
+    font-weight: bold;
+    color:#808080
+}
+
 img {
     width: 80%;
 }

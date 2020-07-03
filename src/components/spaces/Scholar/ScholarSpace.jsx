@@ -12,8 +12,8 @@ export default class ScholarSpace extends Component {
           <Row className="justify-content-md-center">
             <Image src="assets/scholar-header.jpg" circle />
           </Row>
-          <Row className="justify-content-md-center">
-            <h3>Scholar</h3>
+          <Row className="justify-content-md-center space-title">
+            <h1>Scholar</h1>
           </Row>
           <Col md={ {span: 8, offset: 2 }}>
             <Row className="justify-content-md-center">

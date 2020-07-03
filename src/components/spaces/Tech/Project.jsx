@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { Jumbotron, Row, Col, Image, Button } from 'react-bootstrap';
-import '../Spaces.css'
 import './Project.css'
 
 export default class Project extends Component {
   render() {
     return (
-      <Col sm={4} className="project">
+      <Col sm={3} className="project">
+        <Row className="justify-content-md-center" style={{"margin-bottom":"0px"}}>
+          <h3>{this.props.name}</h3>
+        </Row>
         <Row className="justify-content-md-center">
-          <h5>{this.props.name}</h5>
-          <Image src={this.props.image} circle />
+          <Image src={this.props.image} circle style={{"margin-bottom": "10%", "object-fit": "contain"}}/>
           {"\n"}
           <p>{this.props.description}</p>
           {"\n"}

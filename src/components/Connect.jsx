@@ -9,7 +9,7 @@ export default class Connect extends Component {
       <Container>
         <Jumbotron>
           <Row className="justify-content-md-center">
-            <h3>Connect me below:</h3>
+            <h3>Connect with me:</h3>
           </Row>
           <Row className="justify-content-md-center">
             LinkedIn: https://www.linkedin.com/in/peter-tang-83802495/

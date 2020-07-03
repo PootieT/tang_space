@@ -11,8 +11,8 @@ export default class RandomSpace extends Component {
           <Row className="justify-content-md-center">
             <Image src="assets/random-header.jpg" circle />
           </Row>
-          <Row className="justify-content-md-center">
-            <h3>Random</h3>
+          <Row className="justify-content-md-center space-title">
+            <h1>Random</h1>
           </Row>
           <Row className="justify-content-md-center">
             <p>I eat, cook, sail, dance, model, build stuff, performs standups, and think about what to build next</p>

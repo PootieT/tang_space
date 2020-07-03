@@ -79,8 +79,8 @@ export default class FitnessSapce extends Component {
           <Row className="justify-content-md-center">
             <Image src="assets/fitness-header.jpg" circle />
           </Row>
-          <Row className="justify-content-md-center">
-            <h3>Fitness</h3>
+          <Row className="justify-content-md-center space-title">
+            <h1>Fitness</h1>
           </Row>
           <Col md={ {span: 8, offset: 2 }}>
             <Row className="justify-content-md-center">
