@@ -9,8 +9,8 @@ import FitnessSpace from './components/spaces/Fitness/FitnessSpace'
 import TechSpace from './components/spaces/Tech/TechSpace'
 import DjMoveMixx from './components/spaces/Tech/projects/DjMoveMixx'
 import ScholarSpace from './components/spaces/Scholar/ScholarSpace'
-import RandomSpace from './components/spaces/Random/RandomSpace'
-
+import FoodSpace from './components/spaces/Food/FoodSpace'
+import ModelSpace from './components/spaces/Model/ModelSpace'
 
 class App extends Component {
   render() {
@@ -24,7 +24,8 @@ class App extends Component {
           <Route path="/tech" component={TechSpace} />
           <Route path="/djmovemixx" component={DjMoveMixx} />
           <Route path="/scholar" component={ScholarSpace} />
-          <Route path="/random" component={RandomSpace} />
+          <Route path="/food" component={FoodSpace} />
+          <Route path="/model" component={ModelSpace} />
           <Route path="/connect" component={Connect} />
         </div>
       </Router>
