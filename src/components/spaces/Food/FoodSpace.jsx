@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
-import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap';
+import { Jumbotron, Row, Image } from 'react-bootstrap';
 import '../Spaces.css'
 
 export default class FoodSpace extends Component {

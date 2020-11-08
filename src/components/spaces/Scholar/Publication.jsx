@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap';
 import '../Spaces.css';
 import '../../../index.css';
 
