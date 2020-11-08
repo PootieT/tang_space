@@ -30,10 +30,17 @@
     padding: .5rem 1rem;
 }
 
+
+.dropdown-item:active{
+    background-color:var(--global-color-one);
+}
+
+
 .custom-nav {
     background-color: var(--global-color-one);
     justify-content: center;
 }
+
 
 .nav-row{
     min-width: 75%;

@@ -6,7 +6,7 @@ import './CustomNavbar.css'
 export default class CustomNavbar extends Component {
   render() {
     return (
-      <Navbar variant="light" className="custom-nav">
+      <Navbar variant="light" expand="md" className="custom-nav">
         {/* <Container fluid> */}
           <Row  className="nav-row">
             <Col>
@@ -21,16 +21,25 @@ export default class CustomNavbar extends Component {
                 {/* <NavItem eventKey={1} componentClass={Link} to="/">
                   Home
                 </NavItem> */}
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/about">About</Nav.Link>
-                <NavDropdown title="Spaces" id="basic-nav-dropdown">
-                  
-                  <NavDropdown.Item href="/tech">Tech</NavDropdown.Item>
-                  <NavDropdown.Item href="/scholar">Scholar</NavDropdown.Item>
+                <Nav.Link ><Link to="/">Home</Link> </Nav.Link>
+                <Nav.Link ><Link to="/about">About</Link> </Nav.Link>
+                <NavDropdown title="Spaces">
+                  <NavDropdown.Item >
+                    <Link to="/scholar">Scholar</Link> 
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to="/tech">Tech</Link> 
+                  </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="/fitness">Fitness</NavDropdown.Item>
-                  <NavDropdown.Item href="/food">Food</NavDropdown.Item>
-                  <NavDropdown.Item href="/model">Model</NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to="/fitness">Fitness</Link> 
+                  </NavDropdown.Item>
+                  <NavDropdown.Item >
+                    <Link to="/food">Food</Link> 
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to="/model">Model</Link> 
+                  </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="/connect">Connect</Nav.Link>
               </Nav>

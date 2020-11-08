@@ -30,7 +30,7 @@ export default class Home extends Component {
               
               <p>I am interested in many things. You will find a lot of them in an individual <b>space</b>. If you 
               have similar interest in any of them, or want to build something cool based on them, I am all ears.</p>
-              <p>More bio <Link to="/about"><b>here</b></Link>, and contact me <Link to="/contact"><b>here</b></Link></p>
+              <p>More bio <Link to="/about"><b>here</b></Link>, and contact me <Link to="/connect"><b>here</b></Link></p>
             </Col>
           </Row>
         </Jumbotron>
