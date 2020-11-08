@@ -1,3 +1,5 @@
+@import '../index.css';
+
 .navbar {
     display: none;
 }
@@ -12,6 +14,7 @@
     background-image: None;
     border: None;
     border-radius: 0;
+
 }
 
 .navbar {
@@ -25,4 +28,15 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: .5rem 1rem;
+}
+
+.custom-nav {
+    background-color: var(--global-color-one);
+    justify-content: center;
+}
+
+.nav-row{
+    min-width: 75%;
+    margin: "0em";
+    align: "center"
 }
