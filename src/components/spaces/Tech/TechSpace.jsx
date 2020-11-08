@@ -32,7 +32,7 @@ export default class TechSpace extends Component {
             <Project
               name="Swollen"
               image="assets/project-swollen.png"
-              description="A Android app to collect workout data for downstream analysis"
+              description="An Android app to collect workout data for downstream analysis"
               link="/swollen">
               <a href="https://play.google.com/store/apps/details?id=com.fitnessmobile">Google Playstore</a>
               {"\n"}

@@ -1,5 +1,7 @@
+@import "../../../index.css";
+
 .project{
-    background-color: rgb(235, 235, 235);
+    background-color: var(--global-color-one);
     margin-left: 1em;
     margin-right: 1em;
 }
