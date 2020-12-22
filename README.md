@@ -34,7 +34,7 @@ List a few of my representative engineering/tech projects
 - GrassRoot
 - UTI Patch
 
-### Scholar
+### Research
 List of academic stuff
 - Publications
 - In Reviews

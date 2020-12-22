@@ -7,6 +7,10 @@
     font-weight: bold;
 }
 
-img {
+.contained-image{
     width: 80%;
 }
+
+/* img {
+    width: 80%;
+} */

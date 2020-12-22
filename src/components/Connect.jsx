@@ -14,6 +14,9 @@ export default class Connect extends Component {
             LinkedIn: https://www.linkedin.com/in/peter-tang-83802495/
           </Row>
           <Row className="justify-content-md-center">
+            Google Scholar: https://scholar.google.com/citations?user=E9g28XEAAAAJ
+          </Row>
+          <Row className="justify-content-md-center">
             Twitter: https://twitter.com/Zilu_Tang_Peter
           </Row>
           <Row className="justify-content-md-center">
@@ -25,11 +28,6 @@ export default class Connect extends Component {
           <Row className="justify-content-md-center">
             Email: ziluDotpDotTangAtGmailDotcom
           </Row>
-
-
-          
-            
-  
         </Jumbotron>
       </Container>
     )

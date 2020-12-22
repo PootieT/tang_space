@@ -8,7 +8,7 @@ import Connect from './components/Connect';
 import FitnessSpace from './components/spaces/Fitness/FitnessSpace'
 import TechSpace from './components/spaces/Tech/TechSpace'
 import DjMoveMixx from './components/spaces/Tech/projects/DjMoveMixx'
-import ScholarSpace from './components/spaces/Scholar/ScholarSpace'
+import ResearchSpace from './components/spaces/Research/ResearchSpace'
 import FoodSpace from './components/spaces/Food/FoodSpace'
 import ModelSpace from './components/spaces/Model/ModelSpace'
 
@@ -23,7 +23,7 @@ class App extends Component {
           <Route path="/fitness" component={FitnessSpace} />
           <Route path="/tech" component={TechSpace} />
           <Route path="/djmovemixx" component={DjMoveMixx} />
-          <Route path="/scholar" component={ScholarSpace} />
+          <Route path="/research" component={ResearchSpace} />
           <Route path="/food" component={FoodSpace} />
           <Route path="/model" component={ModelSpace} />
           <Route path="/connect" component={Connect} />

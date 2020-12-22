@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { Row, Col, Image } from 'react-bootstrap';
 import './Project.css'
+import '../Spaces.css'
 
 export default class Project extends Component {
   render() {
@@ -11,7 +12,7 @@ export default class Project extends Component {
           <h3>{this.props.name}</h3>
         </Row>
         <Row className="justify-content-md-center">
-          <Image src={this.props.image} circle style={{"margin-bottom": "10%", "object-fit": "contain"}}/>
+          <Image src={this.props.image} circle style={{"margin-bottom": "10%", "object-fit": "contain"}} className="contained-image"/>
           {"\n"}
           <p>{this.props.description}</p>
           {"\n"}

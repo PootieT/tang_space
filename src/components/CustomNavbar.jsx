@@ -25,7 +25,7 @@ export default class CustomNavbar extends Component {
                 <Nav.Link ><Link to="/about">About</Link> </Nav.Link>
                 <NavDropdown title="Spaces">
                   <NavDropdown.Item >
-                    <Link to="/scholar">Scholar</Link> 
+                    <Link to="/research">Research</Link> 
                   </NavDropdown.Item>
                   <NavDropdown.Item>
                     <Link to="/tech">Tech</Link> 
@@ -41,7 +41,7 @@ export default class CustomNavbar extends Component {
                     <Link to="/model">Model</Link> 
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="/connect">Connect</Nav.Link>
+                <Nav.Link ><Link to="/connect">Connect</Link> </Nav.Link>
               </Nav>
             </Navbar.Collapse>
             </Col>

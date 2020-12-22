@@ -9,7 +9,7 @@ export default class TechSpace extends Component {
       <div>
         <Jumbotron>
           <Row className="justify-content-md-center">
-            <Image src="assets/tech-header.jpg" circle />
+            <Image src="assets/tech-header.jpg" circle className="contained-image"/>
           </Row>
           <Row className="justify-content-md-center space-title">
             <h1>Tech</h1>

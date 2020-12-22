@@ -10,13 +10,21 @@ export default class Home extends Component {
         <Jumbotron>
           <Row className="show-grid text-center"> 
             <Col xs={6} sm={6}>
-              <Image src="assets/scholar-profile.jpg" circle fluid className="space-profile" />
+              <Image src="assets/research-profile.jpg" circle fluid className="space-profile" />
             </Col>   
             <Col xs={6} sm={6} style={{textAlign:"left"}}>
               <h1>Zilu Tang (Peter)</h1>
               <h5>/tzee-lu, tongue (Peter)/</h5>
               <p>Research Engineer, IBM</p>
               <p>Multi-agent Orchestration, NLP, Planning, Human Capability Augmentation</p>
+              <a href="https://scholar.google.com/citations?user=E9g28XEAAAAJ"><Image src="assets/socials/google_scholar.png" circle fluid className="socials-icon"/></a>
+              <a href="https://www.linkedin.com/in/peter-tang-83802495/"><Image src="assets/socials/linkedin.png" circle fluid className="socials-icon"/></a>
+              <a href="https://github.com/PootieT"><Image src="assets/socials/github.png" circle fluid className="socials-icon"/></a>
+              <a href="https://twitter.com/Zilu_Tang_Peter"><Image src="assets/socials/twitter.png" circle fluid className="socials-icon"/></a>
+              <a href="mailto: zilu.p.tang@gmail.com"><Image src="assets/socials/gmail.png" circle fluid className="socials-icon"/></a>
+              <a href="https://www.instagram.com/tangpihai/"><Image src="assets/socials/instagram.png" circle fluid className="socials-icon"/></a>
+            </Col>
+            <Col xs={6} sm={6}>
             </Col>
           </Row>
           <Row className="show-grid text-center"> 
@@ -27,8 +35,10 @@ export default class Home extends Component {
               of the above. I not only want to make people's lives easier, but I also want to re-imagine what we
               can achieve and be with more technology enabled capabilities (such as having a virtual assistant 
               called Jarvis that knows everything and helps you fly around in an Iron man suite)</p>
-              
-              <p>I am interested in many things. You will find a lot of them in an individual <b>space</b>. If you 
+              <p>Most recently, I am interested in natural language processing (NLP) research. Specifically, in 
+              <b> learning structure from language</b> and <b>augment language technologies with existing (structured) 
+              knowledge</b>. Find out more in my bio!</p>
+              <p>I am also interested in many other things. You will find a lot of them in an individual <b>space</b>. If you 
               have similar interest in any of them, or want to build something cool based on them, I am all ears.</p>
               <p>More bio <Link to="/about"><b>here</b></Link>, and contact me <Link to="/connect"><b>here</b></Link></p>
             </Col>
@@ -53,9 +63,9 @@ export default class Home extends Component {
             </Link>
           </Col>
           <Col xs={6} sm={3} className="space-wrapper">
-            <Link to="/scholar">  
-              <Image src="assets/scholar-icon.png" circle fluid className="space-profile" />
-             <h3>Scholar</h3>
+            <Link to="/research">  
+              <Image src="assets/research-icon.png" circle fluid className="space-profile" />
+             <h3>Research</h3>
             </Link>
           </Col>
           <Col xs={6} sm={3} className="space-wrapper">

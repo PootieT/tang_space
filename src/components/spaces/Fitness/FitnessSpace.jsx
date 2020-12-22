@@ -76,7 +76,7 @@ export default class FitnessSapce extends Component {
       <div>
         <Jumbotron>
           <Row className="justify-content-md-center">
-            <Image src="assets/fitness-header.jpg" circle />
+            <Image src="assets/fitness-header.jpg" circle className="contained-image"/>
           </Row>
           <Row className="justify-content-md-center space-title">
             <h1>Fitness</h1>

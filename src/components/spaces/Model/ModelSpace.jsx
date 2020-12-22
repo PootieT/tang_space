@@ -8,7 +8,7 @@ export default class ModelSpace extends Component {
       <div>
         <Jumbotron>
           <Row className="justify-content-md-center">
-            <Image src="assets/model-header.jpg" circle />
+            <Image src="assets/model-header.jpg" circle className="contained-image"/>
           </Row>
           <Row className="justify-content-md-center space-title">
             <h1>Model</h1>
