@@ -102,11 +102,8 @@ export default class FitnessSapce extends Component {
               with rest of the life shenanogans.
             </p>
             <p>
-              I am currently training for a body building show in November-ish timeframe. The 
-              original plan of competing in June was unfortunately canceled, but workout out 
-              from home and figure out ways to continue my fitness journey without being seen 
-              at the gym has tought me another level of discipline that I hope to bring with me
-              into this next few months of training and cutting.
+              I competed recently in Granite State Open and won second place in mans bodybuilding
+              novice category. I also won the best poser award for the category. 
             </p>
           </Col>
           <Row className="justify-content-md-center">
