@@ -47,3 +47,7 @@
     margin: "0em";
     align: "center"
 }
+
+.plain-link{
+    text-decoration: none;
+}

@@ -40,7 +40,7 @@ export default class Home extends Component {
               knowledge</b>. Find out more in my bio!</p>
               <p>I am also interested in many other things. You will find a lot of them in an individual <b>space</b>. If you 
               have similar interest in any of them, or want to build something cool based on them, I am all ears.</p>
-              <p>More bio <Link to="/about"><b>here</b></Link>, and contact me <Link to="/connect"><b>here</b></Link></p>
+              <p>More bio <Link to="/about" className="obvious-link"><b>here</b></Link>, and contact me <Link to="/connect" className="obvious-link"><b>here</b></Link></p>
             </Col>
           </Row>
         </Jumbotron>

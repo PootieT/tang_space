@@ -45,7 +45,7 @@ export default class ResearchSpace extends Component {
                 that an orange is circular shaped and may sting if you squeeze the juice into the eye?
                 How will a language model know about a specific company product when such information 
                 is confidential? How do you justify the 
-                <a href="https://en.wikipedia.org/wiki/Trolley_problem"> Trolley problem </a> 
+                <a href="https://en.wikipedia.org/wiki/Trolley_problem" className="obvious-link"> Trolley problem </a> 
                 to a language model so it makes the morally correct decision with complex reasoning? 
                 I am interested in imbuing language technologies using existing knowledge base to 
                 enhance such decision making.

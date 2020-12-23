@@ -36,7 +36,7 @@ export default class About extends Component {
               I worked on a range of projects, from voice detection of caffein consumption,
               to DJ glove that mixes music in real time. I worked for academic resarch 
               labs, medical research centers, large corporations, and startups. You can find
-              details of the projects in <Link to="/tech"><b>Tech Space</b></Link>.
+              details of the projects in <Link to="/tech" className="obvious-link"><b>Tech Space</b></Link>.
               </p>
               <p>
               I am currently a research engineer at IBM Research Cambridge Lab. During my 
