@@ -81,9 +81,9 @@ export default class Home extends Component {
             </Link>
           </Col>
           <Col xs={6} sm={3} className="space-wrapper">
-            <Link to="/model">  
-              <Image src="assets/model-icon.png" circle fluid className="space-profile" />
-              <h3>Model</h3>
+            <Link to="/modeling">  
+              <Image src="assets/modeling-icon.png" circle fluid className="space-profile" />
+              <h3>Modeling</h3>
             </Link>
           </Col>
         </Row>

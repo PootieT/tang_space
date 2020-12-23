@@ -38,7 +38,7 @@ export default class CustomNavbar extends Component {
                     <Link to="/food">Food</Link> 
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link to="/model">Model</Link> 
+                    <Link to="/modeling">Modeling</Link> 
                   </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link ><Link to="/connect">Connect</Link> </Nav.Link>

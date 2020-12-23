@@ -10,7 +10,7 @@ import TechSpace from './components/spaces/Tech/TechSpace'
 import DjMoveMixx from './components/spaces/Tech/projects/DjMoveMixx'
 import ResearchSpace from './components/spaces/Research/ResearchSpace'
 import FoodSpace from './components/spaces/Food/FoodSpace'
-import ModelSpace from './components/spaces/Model/ModelSpace'
+import ModelingSpace from './components/spaces/Modeling/ModelingSpace'
 
 class App extends Component {
   render() {
@@ -25,7 +25,7 @@ class App extends Component {
           <Route path="/djmovemixx" component={DjMoveMixx} />
           <Route path="/research" component={ResearchSpace} />
           <Route path="/food" component={FoodSpace} />
-          <Route path="/model" component={ModelSpace} />
+          <Route path="/modeling" component={ModelingSpace} />
           <Route path="/connect" component={Connect} />
         </div>
       </Router>
